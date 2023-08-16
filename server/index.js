@@ -12,13 +12,13 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (reg, res) => {
-  res.status(200).json({ message: "OK" });
+  res.status(200).json({ message: "Working OK!!!" });
 });
 
 const start = async () => {
   try {
-    await sequelize.authenticate();
-    await sequelize.sync();
+    // await sequelize.authenticate();
+    // await sequelize.sync();
     app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
   } catch (error) {
     console.log(error.message);
