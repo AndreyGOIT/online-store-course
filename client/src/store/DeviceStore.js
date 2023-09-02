@@ -11,12 +11,17 @@ export default class DeviceStore {
     this._brands = [
       { id: 1, name: "Samsung" },
       { id: 2, name: "Apple" },
+      { id: 3, name: "Lenovo" },
+      { id: 4, name: "Asus" },
     ];
     this._devices = [
       { id: 1, name: "iPhone 12 Pro", price: 25000, rating: 5 },
       { id: 2, name: "iPhone 12 Pro", price: 25000, rating: 5 },
       { id: 3, name: "iPhone 12 Pro", price: 25000, rating: 5 },
       { id: 4, name: "iPhone 12 Pro", price: 25000, rating: 5 },
+      { id: 5, name: "iPhone 12 Pro", price: 25000, rating: 5 },
+      { id: 6, name: "iPhone 12 Pro", price: 25000, rating: 5 },
+      { id: 7, name: "iPhone 12 Pro", price: 25000, rating: 5 },
     ];
     this._selectedType = {};
     this._selectedBrand = {};
