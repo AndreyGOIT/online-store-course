@@ -8,7 +8,7 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
-import { Context } from "../..";
+import { Context } from "../../index";
 import DropdownItem from "react-bootstrap/esm/DropdownItem";
 
 const CreateDevice = ({ show, onHide }) => {
